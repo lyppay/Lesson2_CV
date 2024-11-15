@@ -1,0 +1,53 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.whole-cv-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.left-section {
+    width: 30%;
+    background-color: saddlebrown;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-line-separator {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.skill-experience-pair {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font: bold 16px "Roboto", sans-serif;
+}
+
+.skill-experience-pair p {
+    margin: 5px 12px;
+}
+
+.right-section {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: lightslategrey;
+}
